@@ -102,8 +102,8 @@ textarea {
 
 /* Colours  */
 .bg-dark {background-color: hsl(var(--clr-dark));}
-.bg-white {background-color: hsl(var(--clr-light));}
-.bg-accent {background-color: hsl(var(--clr-accent));}
+.bg-white {background-color: hsl(var(--clr-white));}
+.bg-accent {background-color: hsl(var(--clr-light));}
 
 .text-dark {color: hsl(var(--clr-dark));}
 .text-white {color: hsl(var(--clr-light));}
