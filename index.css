@@ -3,12 +3,10 @@
 /* ---------------------------------------------- */
 
 :root {
-    --clr-dark : hsl(230 35% 7%);
-    --clr-light: ;
-    --clr-white: ;
+  --clr-dark: 230 35% 7%;
+  --clr-light: 231 77% 90%;
+  --clr-white: 0 0% 100%;
 }
-
-
 
 /* ---------------------------------------------- */
 /*                  Reset                         */
@@ -101,3 +99,12 @@ textarea {
   white-space: nowrap; /* added line */
   border: 0;
 }
+
+/* Colours  */
+.bg-dark {background-color: hsl(var(--clr-dark));}
+.bg-white {background-color: hsl(var(--clr-light));}
+.bg-accent {background-color: hsl(var(--clr-accent));}
+
+.text-dark {color: hsl(var(--clr-dark));}
+.text-white {color: hsl(var(--clr-light));}
+.text-accent {color: hsl(var(--clr-accent));}
